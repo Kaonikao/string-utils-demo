@@ -1,4 +1,4 @@
-from string_utils import is_palindrome, reverse_words
+from string_utils import is_palindrome, reverse_words, count_vowels
 
 
 def test_is_palindrome_true():
@@ -11,3 +11,7 @@ def test_is_palindrome_false():
 
 def test_reverse_words():
     assert reverse_words("hello world") == "world hello"
+
+
+def test_count_vowels():
+    assert count_vowels("Hello World") == 3
